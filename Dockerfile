@@ -14,7 +14,7 @@ WORKDIR /var/www/html
 
 # Copiamos el código fuente (aunque en docker-compose se monta como volumen)
 # Esto es una buena práctica para el build, aunque no se use en el entorno de desarrollo.
-COPY src/ .
+
 
 # El comando por defecto es 'php-fpm', que es lo que necesitamos.
 # No es necesario especificar CMD.
